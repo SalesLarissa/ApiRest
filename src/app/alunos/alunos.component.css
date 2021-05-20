@@ -1,0 +1,40 @@
+section{
+    width: 100%;
+    padding: 02% 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+table{
+    width: 100%;
+    background-color:transparent;
+    color: white;
+}
+#lista{
+    width: 40%;
+    text-align: center;
+    padding: 02%;
+
+    background:linear-gradient(to right,#26C4B3,#2ECBAC,#40E297);
+    color: white;
+}
+#lista .btn{margin: 0 02%;}
+#cadastre{
+    padding: 02%;
+    background:linear-gradient(to right,#A959F8,#C062EC,#DC6ADB);
+    color: white;
+}
+input{background-color: #713CA6;border:1px solid #4A3B59;}
+.buttons{
+    margin: 05% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-primary{background-color: #B993DF;border: none;}
+.btn-primary:hover{background-color: #E647D8;}
+.btn-success{background-color: #39756F;}
+.btn-success:hover{background-color: #2FF5E1;color: white;}
+
